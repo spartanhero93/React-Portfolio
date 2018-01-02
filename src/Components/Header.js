@@ -11,10 +11,10 @@ export class Header extends Component {
                 </div>
                 <div className="text-box">
                     <h1 className="heading-primary">
-                        <span className="heading-primary-main">Outdoors</span>
+                        <span className="heading-primary-main">Welcome</span>
                         <span className="heading-primary-sub">overcome your anxiety</span>
                     </h1>
-                    <a href="#" className="btn btn-white">Discover our Tours</a>
+                    <a href="#" className="btn btn-white">Learn more</a>
                 </div>
             </header>
         </div>
