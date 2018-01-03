@@ -14,7 +14,8 @@ export class Header extends Component {
                         <span className="heading-primary-main">Outdoors</span>
                         <span className="heading-primary-sub">overcome your anxiety</span>
                     </h1>
-                    <a href="#" className="btn btn-white btn-animated">Discover our Tours</a>
+                    <a href="#" className="btn btn-white btn-animated">About me</a>
+                    <a href="#" className="btn btn-white btn-animated sec">Contact</a>
                 </div>
             </header>
         </div>

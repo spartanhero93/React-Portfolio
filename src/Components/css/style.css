@@ -181,6 +181,7 @@ body {
 .btn-white {
     background-color: white;
     color: #777;
+    margin-left: 5px;
 }
 
 .btn::after {
