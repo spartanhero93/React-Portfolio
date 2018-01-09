@@ -1,15 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter , Route} from 'react-router-dom';
-import Header from './Components/Header';
-import PostIndex from './Components/post_index';
-//import promise from 'redux-promise';
+import App from './App';
 
 ReactDOM.render((
     <BrowserRouter>
         <div>
-            <Route path="/home" component={Header}/>
-            <Route path="/posts" component={PostIndex}/>
+            <Route path="/" component={App}/>
         </div>
     </BrowserRouter>
     ), document.getElementById("root"));
